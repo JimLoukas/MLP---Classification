@@ -7,7 +7,7 @@ The main goal of this project is to study how different parameters affect the **
 
 ---
 
-## ⚙️ Features
+## Features
 
 * Fully implemented MLP from scratch (no external ML libraries)
 * Support for **multiple hidden layers (up to 3)**
@@ -23,19 +23,7 @@ The main goal of this project is to study how different parameters affect the **
   * Network architecture
   * Activation functions
   * Batch sizes
-
----
-
-## Project Structure
-
-```
-├── Main.java                # Entry point of the program
-├── MLP_SDT.java            # Core MLP implementation
-├── Activation.java         # Activation functions and derivatives
-├── train.txt               # Training dataset
-├── test.txt                # Test dataset
-```
-
+  * 
 ---
 
 ## How It Works
@@ -144,17 +132,6 @@ Additional experiments were performed to maximize performance.
 
 ---
 
-## Visualization
-
-The project includes functionality to export classification results:
-
-* `+` → Correct classification
-* `-` → Incorrect classification
-
-These can be plotted to analyze error distribution.
-
----
-
 ## How to Run
 
 ### Compile
@@ -168,23 +145,6 @@ javac Main.java
 ```bash
 java Main
 ```
-
----
-
-## Notes
-
-* A fixed random seed is used for reproducibility
-* The export function is optional (commented in code)
-* Additional Python script (not included) was used for plotting
-
----
-
-## Authors
-
-* Georgios Kefalas
-* Dimitrios Loukas
-
----
 
 ## Course
 
