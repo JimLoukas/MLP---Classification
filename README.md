@@ -1,4 +1,4 @@
-## 📌 Overview
+## Overview
 
 This project implements a **Multi-Layer Perceptron (MLP)** neural network in **Java** for solving a classification problem.
 The model is trained using **backpropagation** and **mini-batch gradient descent**, and its performance is evaluated on a separate test dataset.
@@ -26,7 +26,7 @@ The main goal of this project is to study how different parameters affect the **
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── Main.java                # Entry point of the program
@@ -38,7 +38,7 @@ The main goal of this project is to study how different parameters affect the **
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ### 1. Forward Pass
 
@@ -58,7 +58,7 @@ Weights and biases are updated using:
 
 ---
 
-## 🚀 Training Process
+## Training Process
 
 * Training runs for multiple **epochs**
 * Minimum epochs: **800**
@@ -76,41 +76,41 @@ Each epoch:
 
 ---
 
-## 📊 Experiments
+## Experiments
 
 We tested:
 
-### 🔹 Network Architectures
+###  Network Architectures
 
 * 8 – 8 – 8
 * 16 – 8 – 4
 * 32 – 16 – 8
 
-### 🔹 Activation Functions (3rd Hidden Layer)
+###  Activation Functions (3rd Hidden Layer)
 
 * Tanh
 * Logistic
 * ReLU
 
-### 🔹 Batch Sizes
+###  Batch Sizes
 
 * N/10
 * N/20
 * N/100
 * N/200
 
-➡️ Total experiments: **36 combinations**
+Total experiments: **36 combinations**
 
 ---
 
-## 📈 Key Results
+## Key Results
 
 * Smaller batch sizes significantly improve performance
 * Larger networks generally achieve better accuracy
 * **Tanh activation** performs best in most cases
 * Logistic function performs worst overall
 
-### ✅ Best Result (Initial Experiments)
+### Best Result (Initial Experiments)
 
 * Architecture: **32 – 16 – 8**
 * Activation: **Tanh**
@@ -119,16 +119,16 @@ We tested:
 
 ---
 
-## 🔬 Further Optimization
+## Further Optimization
 
 Additional experiments were performed to maximize performance.
 
-### 🏆 Best Accuracy Achieved
+### Best Accuracy Achieved
 
 * Architecture: **128 – 96 – 32**
 * Accuracy: **95.70%**
 
-### ⚖️ Best Trade-off Model
+### Best Trade-off Model
 
 * Architecture: **32 – 32 – 16**
 * Accuracy: **94.95%**
@@ -136,7 +136,7 @@ Additional experiments were performed to maximize performance.
 
 ---
 
-## 📉 Error Analysis
+## Error Analysis
 
 * Misclassifications occur mainly near **class boundaries**
 * The model performs well on clearly separable data
@@ -144,7 +144,7 @@ Additional experiments were performed to maximize performance.
 
 ---
 
-## 📊 Visualization
+## Visualization
 
 The project includes functionality to export classification results:
 
@@ -155,7 +155,7 @@ These can be plotted to analyze error distribution.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### Compile
 
@@ -171,7 +171,7 @@ java Main
 
 ---
 
-## 📌 Notes
+## Notes
 
 * A fixed random seed is used for reproducibility
 * The export function is optional (commented in code)
@@ -179,13 +179,13 @@ java Main
 
 ---
 
-## 👥 Authors
+## Authors
 
 * Georgios Kefalas
 * Dimitrios Loukas
 
 ---
 
-## 📚 Course
+## Course
 
 Computational Intelligence (ΜΥΕ035)
